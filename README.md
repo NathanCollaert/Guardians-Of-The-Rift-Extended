@@ -1,2 +1,3 @@
-# Example
-An example greeter plugin
+# Guardians Of The Rift Extended
+
+### TODO
