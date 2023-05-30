@@ -52,7 +52,7 @@ public interface GuardiansOfTheRiftExtendedConfig extends Config {
     @ConfigItem(
             keyName = "portalSpawn",
             name = "Notify on portal spawn",
-            description = "Notifies you when a Huge Guardian Remains portal spawns."
+            description = "Notifies you when a Huge Guardian Remains Portal spawns."
     )
     default boolean notifyPortalSpawn() {
         return false;
@@ -70,7 +70,7 @@ public interface GuardiansOfTheRiftExtendedConfig extends Config {
     @ConfigItem(
             keyName = "muteApprentices",
             name = "Mute Apprentices",
-            description = "Mutes the over head messages of the apprentices giving game advice."
+            description = "Mutes the over head messages of the Apprentices giving game advice."
     )
     default boolean muteApprentices() {
         return true;
@@ -79,7 +79,7 @@ public interface GuardiansOfTheRiftExtendedConfig extends Config {
     @ConfigItem(
             keyName = "outlineDepositPool",
             name = "Outline Deposit Pool",
-            description = "Outline the deposit pool when you have runes in your inventory.",
+            description = "Outline the Deposit Pool when you have Runes in your inventory.",
             position = 1,
             section = outlines
     )
@@ -111,8 +111,8 @@ public interface GuardiansOfTheRiftExtendedConfig extends Config {
 
     @ConfigItem(
             keyName = "outlineUnchargedCellsTable",
-            name = "Outline Uncharged Cell Table",
-            description = "Outline the Uncharged Cell Table when the amount of Uncharged cells in your inventory is less than or equal to the given amount below.",
+            name = "Outline Uncharged Cells Table",
+            description = "Outline the Uncharged Cells Table when the amount of Uncharged Cells in your inventory is less than or equal to the given amount below.",
             position = 4,
             section = outlines
     )
